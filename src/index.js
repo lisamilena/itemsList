@@ -2,7 +2,6 @@
 require('normalize.css/normalize.css');
 require('./styles/index.scss');
 require('../node_modules/bootstrap/dist/css/bootstrap.min.css');
-import mockjax from '../node_modules/jquery-mockjax/dist/jquery.mockjax.js';
 
 document.addEventListener("DOMContentLoaded", () => {
     const selectElement = document.getElementById('select'),
@@ -12,14 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     deleteElement = document.getElementById('deleteElement'),
     undoElement = document.getElementById('undoElement');
     let prevOptions;
-
-    console.log(mockjax)
-    mockjax({
-        url: `data.json`,
-        response: function (data) {
-          console.log(data)
-        }
-      });
 
     const showHideElements = (className, showItem) => {
         ([...document.getElementsByClassName(className)]).map(element => {
