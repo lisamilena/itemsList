@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 90%;
+    background: #f5fafa;
+
+    &.wrapper {
+        height: calc(100% - 30px);
+        border-radius: 5px;
+        padding: 10px; 
+        max-width: 500px;
+        margin: 15px auto;
+    }
+}
+
+.showItem {
+    display: block !important;
+}
+
+select {
+    width: 400px;
+    max-width: 96%;
+}
+
+.newItem {
+    display: none;
+    padding: 25px;
+
+    label {
+        font-size: 0.85em;
+    }
+}
+
+.btn {
+    margin: 5px;
+}
+
+* { box-sizing: border-box; }

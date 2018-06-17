@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Brújula</title>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="Test Brújula">
+    <meta name="Description" content="Test Brújula"/>
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Test Brújula" />
+    <meta property="og:type" content="test" />
+    <meta property="og:url" content="https://git..." />
+    <meta property="og:description" content="Test Brújula" />
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+</head>
+<body class="wrapper">
+    <div class="row">
+        <div class="col-md-8">
+            <select id="select" class="form-control" multiple>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <button id="addElement" class="btn btn-success">+</button>
+            <button id="deleteElement" class="btn btn-danger">-</button>
+            <button id="undoElement" class="btn btn-primary">Deshacer</button>
+        </div>
+        <div class="newItem col-md-8 form-group">
+            <input class="form-control" type="text" id="textElement" placeholder="Valor"/>
+        </div>
+        <div class="newItem col-md-2">
+            <button id="saveElement" class="btn btn-sm">Añadir</button>
+        </div>
+    </div>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101423651-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-101423651-2');
+</script>
+
+</body>
+</html>
