@@ -15,6 +15,10 @@
 
 * [Node](https://nodejs.org) > 7.6
 
+## Compiled project
+
+* /dist
+
 ## Usage
 
 Clone the repository
